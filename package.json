@@ -1,0 +1,19 @@
+{
+    "name": "breakfast-server",
+    "version": "1.0.0",
+    "description": "Сервер для хранения данных о завтраках",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "body-parser": "^1.20.1",
+      "cors": "^2.8.5",
+      "sqlite3": "^5.1.6"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    }
+  }
+  
